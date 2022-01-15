@@ -1,1 +1,1 @@
-worker: node repeater.js
+Worker: node ./src/repeater.js

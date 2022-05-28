@@ -13,7 +13,7 @@ client.on('message', message =>{
         message.channel.send('hey there');
     
     else if (message.content.toLowerCase() === 'hi harshal')
-        message.reply('bhag bsdk');
+        message.reply('bye');
 
         const specificUsers = ['698415831926964294']; // list of ids to detect
         const messages = ['lmaooo minecraft noob', 'who turns down minecraft difficulty and completes survival?', 'NO']; // list of messages to pick random from
@@ -31,7 +31,7 @@ client.on('message', message =>{
         
          if (message.content.toLowerCase().includes(words[i])) {
         
-            message.channel.send('why did you take a noobs name');
+            message.channel.send('why did you take his name');
             return;
         
          }

@@ -12,11 +12,11 @@ client.on('message', message =>{
     if(message.content.toLowerCase() === 'hello')
         message.channel.send('hey there');
     
-    else if (message.content.toLowerCase() === 'hi harshal')
+    else if (message.content.toLowerCase() === 'hi')
         message.reply('bye');
 
         const specificUsers = ['698415831926964294']; // list of ids to detect
-        const messages = ['lmaooo minecraft noob', 'who turns down minecraft difficulty and completes survival?', 'NO']; // list of messages to pick random from
+        const messages = ['Hello world!', 'I am feeling happy today', 'What a wonderful world']; // list of messages to pick random from
         
         if (specificUsers.includes(message.author.id))
           // send random message from array
@@ -26,7 +26,7 @@ client.on('message', message =>{
         
 
     
-        var words = ["rohan", "bandu", "sabnis", "nafde"]
+        var words = ["rohan", "arya", "sabnis", "nafde"]
         for (var i=0; i < words.length; i++) {
         
          if (message.content.toLowerCase().includes(words[i])) {

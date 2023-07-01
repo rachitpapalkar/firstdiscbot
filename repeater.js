@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 
 client.once('ready', () => {
-    console.log('trial1 is onlineeee!');
+    console.log('Bot is online!');
 });
 
 client.on('message', message =>{
@@ -31,7 +31,7 @@ client.on('message', message =>{
         
          if (message.content.toLowerCase().includes(words[i])) {
         
-            message.channel.send('why did you take his name');
+            message.channel.send('Hi' +words[i]);
             return;
         
          }
